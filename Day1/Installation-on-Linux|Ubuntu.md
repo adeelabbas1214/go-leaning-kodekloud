@@ -58,38 +58,6 @@ To install Go (Golang) on Linux/Ubuntu, follow these steps:
    go version go1.21.1 linux/amd64
    ```
 
-### Step 6: Test Installation
-7. Create a test Go program:
-   - Open a terminal and create a new file called `hello.go`:
 
-     ```bash
-     nano hello.go
-     ```
-
-   - Add the following content to the file:
-
-     ```go
-     package main
-
-     import "fmt"
-
-     func main() {
-         fmt.Println("Hello, World!")
-     }
-     ```
-
-   - Save the file (`Ctrl + O`), then exit (`Ctrl + X`).
-
-8. Run the program:
-
-   ```bash
-   go run hello.go
-   ```
-
-   You should see the output:
-
-   ```
-   Hello, World!
-   ```
 
 BOOM, Now you're done, U can Start Working with it!
